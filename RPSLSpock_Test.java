@@ -20,7 +20,7 @@ public class RPSLSpock_Test {
 
     @Test
     public void generatePick() throws Exception {
-        for (int i=1; i<=10; ++i) {
+        for (int i=1; i<=1000000; ++i) {
             String pick = RPSLSpock.generatePick();
             assertTrue(pick != null);
             assertTrue(RPSLSpock.isValidPick(pick));
